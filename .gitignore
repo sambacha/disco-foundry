@@ -1,0 +1,30 @@
+# -*- mode: gitignore; -*-
+/out
+cache/
+artifacts/
+logs
+*.log
+!/broadcast
+/broadcast/*.json
+/broadcast/*/31337/
+
+## CVE-2021-21300 style exploits
+.\#*
+
+## General ##
+*~
+\#*\#
+/**/build
+.DS_Store
+node_modules
+tmp/
+_dev/
+coverage/
+/dist
+/build
+
+## Binary ##
+*.zip
+*.tar
+*.tar.gz
+*.tgz
